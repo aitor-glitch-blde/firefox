@@ -7,9 +7,9 @@ let myHeading = document.querySelector('h1');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if (mySrc.includes('firefox.webp')) {
-        myImage.setAttribute('src', './img/Batman.webp'); // Cambiar la imagen.
+        myImage.setAttribute('src', 'Batman.webp'); // Cambiar la imagen.
     } else {
-        myImage.setAttribute('src', './img/firefox.webp');
+        myImage.setAttribute('src', 'firefox.webp');
     }
 };
 
