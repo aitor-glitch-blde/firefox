@@ -9,7 +9,7 @@ myImage.onclick = function() {
     if (mySrc.includes('firefox.webp')) {
         myImage.setAttribute('src', 'Batman.webp'); // Cambiar la imagen.
     } else {
-        myImage.setAttribute('src', 'firefox.webp');
+        myImage.setAttribute('src', 'Firefox Logo');
     }
 };
 
