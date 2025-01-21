@@ -6,10 +6,10 @@ let myHeading = document.querySelector('h1');
 // Manejo de imágenes
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc.includes('Firefox Logo')) {
+    if (mySrc.includes('firefox.webp')) {
         myImage.setAttribute('src', 'Batman.webp'); // Cambiar la imagen.
     } else {
-        myImage.setAttribute('src', 'Firefox Logo');
+        myImage.setAttribute('src', 'firefox.webp');
     }
 };
 
